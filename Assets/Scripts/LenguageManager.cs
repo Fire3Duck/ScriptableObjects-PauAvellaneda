@@ -2,29 +2,24 @@ using UnityEngine;
 using UnityEngine.UI;
     public class LenguageManager : MonoBehaviour
 {
-    public ScriptableLanguage language;
-    public GameObject inspectWindow;
+    public ScriptableLanguage español;
+    public ScriptableLanguage catalan;
+    public ScriptableLanguage ingles;
 
-    public Text inspectionName;
-    public Text inspectionDescription;
-    
-    public Button thisSlotButton;
-    public Button closeButton;
-    void Start()
+    public Text texto1;
+    public Text texto2;
+    public Text texto3;
+    public Text texto4;
+
+    public void CambiarIdioma(ScriptableLanguage idioma)
     {
-        thisSlotButton = GetComponentInChildren<Button>();
-        thisSlotButton.onClick.AddListener(InspectItem);
+        texto1.text = idioma.texto1;
+        texto2.text = idioma.texto2;
+        texto3.text = idioma.texto3;
+        texto4.text = idioma.texto4;
     }
 
-    void InspectItem()
-    {
-        inspectWindow.SetActive(true);
-    }
-
-    void CloseWindow()
-    {
-        inspectWindow.SetActive(false);
-
-        closeButton.onClick.RemoveListener(CloseWindow);
-    }
+    public void Español() => CambiarIdioma(español);
+    public void Catalan() => CambiarIdioma(catalan);
+    public void Ingles() => CambiarIdioma(ingles);
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Nuevo Idioma", menuName = "Idiomas/Idioma")]
+[CreateAssetMenu(fileName = "NuevoIdioma", menuName = "Idiomas/Idioma")]
 public class ScriptableLanguage : ScriptableObject
 {
     public string texto1;
