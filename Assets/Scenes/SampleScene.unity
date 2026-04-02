@@ -1263,6 +1263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1705491684}
+  - component: {fileID: 1705491685}
   m_Layer: 0
   m_Name: LenguageManager
   m_TagString: Untagged
@@ -1285,6 +1286,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1705491685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705491683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99b5596b0118a64bb95cce59cc23d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LenguageManager
+  "espa\xF1ol": {fileID: 0}
+  catalan: {fileID: 0}
+  ingles: {fileID: 0}
+  texto1: {fileID: 0}
+  texto2: {fileID: 0}
+  texto3: {fileID: 0}
+  texto4: {fileID: 0}
 --- !u!1 &2017853031
 GameObject:
   m_ObjectHideFlags: 0
