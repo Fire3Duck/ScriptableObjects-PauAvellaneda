@@ -1,9 +1,10 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Item", menuName = "ScriptableObjects/Items")]
+[CreateAssetMenu(fileName = "Nuevo Idioma", menuName = "Idiomas/Idioma")]
 public class ScriptableLanguage : ScriptableObject
 {
-    public string languageName;
-    public string languageDescription;
-    public Sprite languageSprite;
+    public string texto1;
+    public string texto2;
+    public string texto3;
+    public string texto4;
 }
