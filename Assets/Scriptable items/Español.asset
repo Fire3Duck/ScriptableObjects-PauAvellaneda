@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de23710bd1fbf504099ff6e459a681fb, type: 3}
   m_Name: "Espa\xF1ol"
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableLanguage
-  texto1: 
-  texto2: 
-  texto3: 
-  texto4: 
+  texto1: "El drag\xF3n azul vol\xF3 a trav\xE9s del hermoso oc\xE9ano en busca de
+    sus l\xE1grimas."
+  texto2: "Pero su b\xFAsqueda ser\xE1 interminable, pues las l\xE1grimas se funden
+    con el oc\xE9ano."
+  texto3: "Condenar al drag\xF3n a buscar aquello que ya no existe."
+  texto4: Poema

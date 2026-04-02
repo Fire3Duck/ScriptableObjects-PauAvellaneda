@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de23710bd1fbf504099ff6e459a681fb, type: 3}
   m_Name: English
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableLanguage
-  texto1: 
-  texto2: 
-  texto3: 
-  texto4: 
+  texto1: The blue dragon flew across the beautiful ocean in search of her tears.
+  texto2: But their search will be endless, for tears merge with the ocean.
+  texto3: To condemn the dragon to search for that which no longer exists.
+  texto4: Options

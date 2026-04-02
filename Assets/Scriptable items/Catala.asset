@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de23710bd1fbf504099ff6e459a681fb, type: 3}
   m_Name: Catala
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableLanguage
-  texto1: 
-  texto2: 
-  texto3: 
-  texto4: 
+  texto1: "El drac blau va volar a trav\xE9s del bell oce\xE0 a la recerca de les
+    ll\xE0grimes."
+  texto2: "Per\xF2 la cerca ser\xE0 interminable, ja que les ll\xE0grimes es fonen
+    amb l'oce\xE0."
+  texto3: "Condemnar el drac a buscar all\xF2 que ja no existeix."
+  texto4: Opcions
