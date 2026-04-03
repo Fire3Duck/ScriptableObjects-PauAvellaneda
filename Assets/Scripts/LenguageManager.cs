@@ -13,6 +13,18 @@ using UnityEngine.UI;
 
     public void CambiarIdioma(ScriptableLanguage idioma)
     {
+        if (idioma == null)
+        {
+            Debug.LogError("Idioma NULL");
+            return;
+        }
+
+        if (texto1 == null || texto2 == null || texto3 == null || texto4 == null)
+        {
+            Debug.LogError("Faltan textos en el Inspector");
+            return;
+        }
+
         texto1.text = idioma.texto1;
         texto2.text = idioma.texto2;
         texto3.text = idioma.texto3;
